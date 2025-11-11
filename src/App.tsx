@@ -7,7 +7,7 @@ import { LocationGallery } from "./components/LocationGallery";
 import { WhatsIncluded } from "./components/WhatsIncluded";
 import { Itinerary } from "./components/Itinerary";
 import { TermsAndConditions } from "./components/TermsAndConditions";
-import { RegistrationPage } from "./components/RegistrationPage";
+// import { RegistrationPage } from "./components/RegistrationPage";
 import { Footer } from "./components/Footer";
 import darkBgImage from './assets/darkbg.png';
 
@@ -47,9 +47,9 @@ export default function App() {
               <Footer isDarkMode={isDarkMode} />
             </>
           } />
-          <Route path="/register" element={
+          {/* <Route path="/register" element={
             <RegistrationPage isDarkMode={isDarkMode} />
-          } />
+          } /> */}
         </Routes>
       </div>
     </Router>

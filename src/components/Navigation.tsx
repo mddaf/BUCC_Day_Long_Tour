@@ -98,12 +98,14 @@ export function Navigation({ isDarkMode, toggleTheme }: NavigationProps) {
             
             {/* Register/Home Button - Hidden on small mobile */}
             {location.pathname === '/' ? (
-              <button
-                onClick={() => navigate('/register')}
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScExVF0Ii7g9A_IgqEI0Gp54bVNduyTddoNE3y3ZYQmjGZ2JQ/viewform?pli=1"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hidden sm:block bg-gradient-to-r from-fuchsia-600 to-pink-600 text-white px-6 py-2 rounded-full hover:from-fuchsia-700 hover:to-pink-700 transition-all shadow-lg shadow-fuchsia-500/50"
               >
                 Register Now
-              </button>
+              </a>
             ) : (
               <button
                 onClick={() => navigate('/')}
@@ -158,15 +160,15 @@ export function Navigation({ isDarkMode, toggleTheme }: NavigationProps) {
             ))}
             
             {/* Mobile Register Button */}
-            <button
-              onClick={() => {
-                setIsMobileMenuOpen(false);
-                navigate('/register');
-              }}
-              className="w-full bg-gradient-to-r from-fuchsia-600 to-pink-600 text-white px-6 py-3 rounded-lg hover:from-fuchsia-700 hover:to-pink-700 transition-all shadow-lg shadow-fuchsia-500/50"
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScExVF0Ii7g9A_IgqEI0Gp54bVNduyTddoNE3y3ZYQmjGZ2JQ/viewform?pli=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full text-center bg-gradient-to-r from-fuchsia-600 to-pink-600 text-white px-6 py-3 rounded-lg hover:from-fuchsia-700 hover:to-pink-700 transition-all shadow-lg shadow-fuchsia-500/50"
+              onClick={() => setIsMobileMenuOpen(false)}
             >
               Register Now
-            </button>
+            </a>
           </div>
         </div>
       )}
