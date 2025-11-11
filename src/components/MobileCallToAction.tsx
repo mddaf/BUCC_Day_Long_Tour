@@ -29,14 +29,12 @@ export function MobileCallToAction({ isDarkMode }: MobileCallToActionProps) {
         </div>
         
         {/* Register Button */}
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLScExVF0Ii7g9A_IgqEI0Gp54bVNduyTddoNE3y3ZYQmjGZ2JQ/viewform?pli=1"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block w-full bg-gradient-to-r from-fuchsia-600 to-pink-600 text-white px-8 py-4 rounded-full hover:from-fuchsia-700 hover:to-pink-700 transition-all shadow-lg shadow-fuchsia-500/50 text-lg text-center"
+        <button
+          onClick={() => navigate('/register')}
+          className="w-full bg-gradient-to-r from-fuchsia-600 to-pink-600 text-white px-8 py-4 rounded-full hover:from-fuchsia-700 hover:to-pink-700 transition-all shadow-lg shadow-fuchsia-500/50 text-lg text-center"
         >
           Register Now
-        </a>
+        </button>
       </div>
     </section>
   );

@@ -1,4 +1,4 @@
-import eventLogo from '../assets/tourlogo.png';
+import eventLogo from '../assets/tourlogo2.png';
 import { Mail, MapPin, Facebook, Linkedin, Instagram, Youtube } from 'lucide-react';
 
 interface FooterProps {
