@@ -30,7 +30,7 @@ export function Footer({ isDarkMode }: FooterProps) {
               <div className="flex items-center gap-3">
                 <Mail className={`w-5 h-5 flex-shrink-0 ${isDarkMode ? 'text-cyan-400' : 'text-cyan-600'}`} />
                 <a href="mailto:bucc@g.bracu.ac.bd" className={`hover:underline ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-                  BUCC@IB.BRACU.AC.BD
+                  bucc@g.bracu.ac.bd
                 </a>
               </div>
               <div className="flex items-start gap-3">
