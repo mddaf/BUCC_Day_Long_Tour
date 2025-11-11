@@ -41,7 +41,7 @@ export function Footer({ isDarkMode }: FooterProps) {
               </div>
               <div className="flex items-center gap-3 pt-2">
                 <a 
-                  href="https://www.facebook.com/share/1FpvY32z8i/?mibextid=wwXIfr" 
+                  href="https://www.facebook.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className={`p-2 rounded-full border transition-colors ${
@@ -53,7 +53,7 @@ export function Footer({ isDarkMode }: FooterProps) {
                   <Facebook className="w-5 h-5" />
                 </a>
                 <a 
-                  href="https://www.linkedin.com/company/bracucc/" 
+                  href="https://www.linkedin.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className={`p-2 rounded-full border transition-colors ${
@@ -65,7 +65,7 @@ export function Footer({ isDarkMode }: FooterProps) {
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a 
-                  href="https://www.instagram.com/bracucc?igsh=MXB5MjBrMTRhejVrMQ==" 
+                  href="https://www.instagram.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className={`p-2 rounded-full border transition-colors ${
@@ -76,7 +76,7 @@ export function Footer({ isDarkMode }: FooterProps) {
                 >
                   <Instagram className="w-5 h-5" />
                 </a>
-                {/* <a 
+                <a 
                   href="https://www.youtube.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -87,7 +87,7 @@ export function Footer({ isDarkMode }: FooterProps) {
                   }`}
                 >
                   <Youtube className="w-5 h-5" />
-                </a> */}
+                </a>
               </div>
             </div>
           </div>

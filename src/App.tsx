@@ -2,13 +2,14 @@ import { useState } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Navigation } from "./components/Navigation";
 import { Hero } from "./components/Hero";
+import { MobileCallToAction } from "./components/MobileCallToAction";
 import { LocationGallery } from "./components/LocationGallery";
 import { WhatsIncluded } from "./components/WhatsIncluded";
 import { Itinerary } from "./components/Itinerary";
 import { TermsAndConditions } from "./components/TermsAndConditions";
 import { RegistrationPage } from "./components/RegistrationPage";
 import { Footer } from "./components/Footer";
-import darkBgImage from '../src/assets/darkbg.png';
+import darkBgImage from './assets/darkbg.png';
 
 export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -38,6 +39,7 @@ export default function App() {
           <Route path="/" element={
             <>
               <Hero isDarkMode={isDarkMode} />
+              <MobileCallToAction isDarkMode={isDarkMode} />
               <LocationGallery isDarkMode={isDarkMode} />
               <WhatsIncluded isDarkMode={isDarkMode} />
               <Itinerary isDarkMode={isDarkMode} />

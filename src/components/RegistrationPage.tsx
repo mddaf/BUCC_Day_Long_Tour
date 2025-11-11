@@ -30,12 +30,12 @@ export function RegistrationPage({ isDarkMode }: RegistrationPageProps) {
             ? 'bg-gray-800/60 backdrop-blur-xl border border-gray-700' 
             : 'bg-white/80 backdrop-blur-xl'
         }`}>
-          <iframe
-            src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true"
-            width="100%"
-            height="1200"
-            frameBorder="0"
-            marginHeight={0}
+          <iframe 
+            src="https://docs.google.com/forms/d/e/1FAIpQLSerwLaN3__3HrNXC6W3t7aBfyGAF3vCkFKAY_FhfCATPRWpBg/viewform?embedded=true" 
+            width="100%" 
+            height="1908" 
+            frameBorder="0" 
+            marginHeight={0} 
             marginWidth={0}
             className="w-full border-4 border-fuchsia-500 rounded-2xl"
             title="Registration Form"

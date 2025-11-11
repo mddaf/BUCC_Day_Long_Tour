@@ -3,8 +3,9 @@ import { MapPin } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import poolImage from '../assets/bird.jfif';
 import gardenImage from '../assets/field.jfif';
+import lakeImage from '../assets/float.jfif';
 import houseImage from '../assets/house.jfif';
-import roadImage from '../assets/road.jfif';
+import roadmage from '../assets/road.jfif';
 import {
   Carousel,
   CarouselContent,
@@ -25,20 +26,24 @@ export function LocationGallery({ isDarkMode }: LocationGalleryProps) {
   const galleryImages = [
     {
       url: poolImage,
-      alt: "Resort Bird Eye View"
+      alt: "Resort Swimming Pool"
     },
     {
       url: gardenImage,
-      alt: "Resort Field View"
+      alt: "Resort Garden & Lawn"
+    },
+    {
+      url: lakeImage,
+      alt: "Resort Lake View"
     },
     {
       url: houseImage,
-      alt: "Resort House View"
+      alt: "Resort Cottages"
     },
     {
-      url: roadImage,
-      alt: "Resort Road View"
-    }
+      url: roadmage,
+      alt: "Resort Access Road"
+    },
   ];
 
   useEffect(() => {
